@@ -46,5 +46,9 @@ var currentBrowser = browserCheck();
 
 ![image](./images/IE8-test.png)
 
+4、android手机端截图
+
+![image](./images/mobile-chrome.jpg)
+
 
 
