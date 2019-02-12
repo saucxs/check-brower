@@ -1,0 +1,2 @@
+# checkbrower
+checkBower是一个检测当前环境的是PC端还是无线端，浏览器类型和版本号的插件
