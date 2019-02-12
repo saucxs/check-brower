@@ -35,3 +35,16 @@ var currentBrowser = browserCheck();
 # 使用栗子
 
 查看地址：https://www.mwcxs.top/static/testTool/checkBrower/index.html
+
+说明：
+
+1、兼容到谷歌浏览器67及以上的，火狐浏览器59及以上，IE浏览器9及以上，Safari浏览器10及以上；
+
+2、除了上述的范围的都会出现更换浏览器的提示
+
+3、IE8的截图
+
+![image](./images/IE8-test.png)
+
+
+
