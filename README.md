@@ -1,4 +1,26 @@
-# checkbrower
+# [check-brower](https://github.com/saucxs/check-brower)
+[![](https://img.shields.io/badge/Powered%20by-saucxs%20-brightgreen.svg)](https://github.com/saucxs/check-brower)
+[![GitHub license][license-image]][license-url]
+[![GitHub version][version-image]][version-url]
+[![GitHub stars][stars-image]][stars-url]
+[![GitHub forks][forks-image]][forks-url]
+[![GitHub issues][issues-image]][issues-image]
+[![npm download][download-image]][download-url]
+
+
+[license-image]: https://img.shields.io/github/license/saucxs/check-brower.svg
+[license-url]: https://github.com/saucxs/check-brower/blob/master/LICENSE
+[version-image]: https://img.shields.io/github/package-json/v/saucxs/check-brower.svg
+[version-url]: https://github.com/saucxs/check-brower/blob/master/package-json
+[stars-image]: https://img.shields.io/github/stars/saucxs/check-brower.svg
+[stars-url]: https://github.com/saucxs/check-brower/stargazers
+[forks-image]: https://img.shields.io/github/forks/saucxs/check-brower.svg
+[forks-url]: https://github.com/saucxs/check-brower/network
+[issues-image]: https://img.shields.io/github/issues/saucxs/check-brower.svg
+[issues-url]: https://github.com/saucxs/check-brower/issues
+[download-image]: https://img.shields.io/npm/dm/check-brower.svg
+[download-url]: https://npmjs.org/package/check-brower
+
 checkbrower是一个检测当前环境的是PC端还是无线端，浏览器类型和版本号的插件
 
 # 使用
