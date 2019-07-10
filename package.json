@@ -1,0 +1,23 @@
+{
+  "name": "check-brower",
+  "version": "1.0.0",
+  "description": "check brower tool",
+  "main": "checkbrower.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saucxs/checkbrower.git"
+  },
+  "keywords": [
+    "check",
+    "brower"
+  ],
+  "author": "saucxs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saucxs/checkbrower/issues"
+  },
+  "homepage": "https://github.com/saucxs/checkbrower#readme"
+}
