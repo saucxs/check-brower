@@ -2,7 +2,7 @@
 checkbrower是一个检测当前环境的是PC端还是无线端，浏览器类型和版本号的插件
 
 # 使用
-1.1 本地引入封装的js文件
+## 1.1 本地引入封装的js文件
 
 checkbrower.js是必须要引入的
 
@@ -31,6 +31,30 @@ var currentBrowser = browserCheck();
       //支持的浏览器类型，正常显示
     }
 ```
+
+## 1.2 npm包引入
+```js
+npm i --save check-brower
+```
+在需要的页面
+```js
+import checkBrower from 'check-brower'
+
+let currentBrowser = new checkBrower();
+ if (currentBrowser.mobile) {
+      // 显示“暂不支持移动端访问，请用PC访问”
+    } else if( (currentBrowser.browser == "Chrome" && currentBrowser.version < 68) ||
+      (currentBrowser.browser == "Firefox" && currentBrowser.version < 60) ||
+      (currentBrowser.browser == "IE" && currentBrowser.version < 10) ||
+      (currentBrowser.browser == "Safari" && currentBrowser.version < 11)
+    ){
+      // 显示“当前浏览器的类型（currentBrowser.browser）和版本（currentBrowser.version）”
+    } else{
+      //支持的浏览器类型，正常显示
+    }
+
+```
+
 
 # 使用栗子
 
